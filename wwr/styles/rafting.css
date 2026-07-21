@@ -5,8 +5,6 @@
   --accent2-color: #d9d9d9;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
-  --box-shadow: 0 0 30px gray;
-  --borders-solid: 1px solid rgba(0 0 0 / 1);
   --borders-trans: 1px solid rgba(0 0 0 / .5);
 }
 
