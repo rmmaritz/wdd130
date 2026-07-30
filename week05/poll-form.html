@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles/poll-form.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 05 Poll Forms</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Contact Information</legend>
+      <div class="form-item column2">
+        <label>Full Name: <input type="text" name="fullname" required></label>
+      </div>
+      <div class="form-item column2">
+        <label>Email: <input type="email" name="email" required></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Questions</legend>
+      <div class="form-item column1">
+        <label for="browser">What is your favourite browser?</label>
+        <select name="browser" id="browser">
+          <option value="chrome">Chrome</option>
+          <option value="firefox">Firefox</option>
+          <option value="edge">Edge</option>
+          <option value="brave">Brave</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-item column1">
+        <label for="pet">Do you have a household pet?</label>
+        <input type="checkbox" id="pet" name="pet">
+      </div>
+      <div class="center-item">
+        <label for="feedback">List the places you have lived:</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
+      </div>
+    </fieldset>
+    <button type="submit">Submit Poll</button>
+  </form>
+
+</body>
+
+</html>
