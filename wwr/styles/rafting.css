@@ -23,7 +23,7 @@ body {
 header,
 main,
 footer {
-  width: 840px;
+  width: 850px;
   margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ header {
   grid-template-columns: auto 1fr;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -205,7 +205,7 @@ footer {
 
 .contact-container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -342,7 +342,7 @@ button:hover {
 .profiles {
   text-align: center;
   margin: 3rem auto;
-  max-width: 1200px;
+  max-width: 850px;
 }
 
 .profile-grid {
