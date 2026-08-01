@@ -364,7 +364,7 @@ button:hover {
   border-radius: 8px;
   box-shadow: var(--box-shadow);
   padding: 1rem;
-  width: 250px;
+  width: 200px;
   transition: transform 0.3s ease;
 }
 
