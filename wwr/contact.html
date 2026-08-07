@@ -27,7 +27,15 @@
   </header>
 
   <main class="contact-container">
-    <h1>HydroPulse Rafting</h1>
+    <div class="hero">
+      <img src="images/hero-transparency.webp" alt="White Water Rafting Fun">
+      <h1>Contact HydroPulse Rafting</h1>
+      <article>
+        <img src="images/index-hero-image.webp" alt="Blyde River">
+        <p>We’re here to answer your questions and help plan your next adventure.</p>
+      </article>
+    </div>
+
     <section class="contact-info">
       <p>Storms River Mouth Road<br>
         Tsitsikamma National Park<br>
@@ -50,19 +58,22 @@
           <legend>Send Us a Message</legend>
 
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Your name" required>
+          <input type="text" id="name" name="name" placeholder="Your name" required
+            autocomplete="name">
 
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Your email" required>
+          <input type="email" id="email" name="email" placeholder="Your email" required
+            autocomplete="email">
 
           <label class="purpose-label">Message Purpose:</label>
           <div class="radio-group">
-            <input type="radio" id="general" name="purpose" value="general">
-            <label>General Inquiry</label>
-            <input type="radio" id="reservation" name="purpose" value="reservation">
-            <label>Reservation Question</label>
-            <input type="radio" id="suggestion" name="purpose" value="suggestion">
-            <label>Website Suggestion</label>
+            <label><input type="radio" id="general" name="purpose" value="general"> General
+              Inquiry</label>
+            <label><input type="radio" id="reservation" name="purpose" value="reservation">
+              Reservation
+              Question</label>
+            <label><input type="radio" id="suggestion" name="purpose" value="suggestion"> Website
+              Suggestion</label>
           </div>
 
           <label for="message">Message:</label>
