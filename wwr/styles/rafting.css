@@ -382,3 +382,161 @@ button:hover {
 .profiles h2 {
   margin-bottom: 3rem;
 }
+
+.grid-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: start;
+  justify-items: center;
+  margin: 2rem 0;
+  max-width: 950px;
+}
+
+.info-item {
+  text-align: center;
+}
+
+.info-item img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 1rem;
+}
+
+.info-item p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--accent1-color);
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+}
+
+.newsletter {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.newsletter form {
+  min-height: auto;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background: transparent;
+}
+
+.newsletter form fieldset {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 0.75rem;
+  border: none;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+}
+
+.newsletter button {
+  grid-column: 2;
+  justify-self: end;
+  width: auto;
+  margin-right: 0;
+}
+
+.newsletter h2,
+.newsletter p {
+  margin: 0;
+}
+
+.cta {
+  position: relative;
+  z-index: 2;
+  margin-top: 10px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 8px;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.cta p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.cta .btn {
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+  background-color: darkgreen;
+  transform: scale(1.05);
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.trip-card {
+  background-color: var(--accent2-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 1rem;
+  text-align: center;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.trip-table {
+  margin: 3rem auto;
+  max-width: 950px;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid var(--accent2-color);
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.trip-table th {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
